@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+body{
+    background-color: rgba(255,255,255,1.00);
+    background-image: url(img/borde_hojas.jpg);
+    background-repeat: repeat-x;
+}
+h1{
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: rgba(214,59,41,1.00);
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+h2{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgba(40,105,3,1.00);
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+img{
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    border-style: dotted groove;
+    border-width: 3px;
+    border-color: rgba(243,6,10,1.00) rgba(19,40,204,1.00) rgba(230,6,10,1.00) rgba(203,11,215,1.00);
+}
+li{
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    list-style-image: url(img/web_bullet.gif);
+    margin-top: 10px;
+    margin-left: 130px;
+    margin-bottom: 10px;
+}
+p{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    color: rgba(15,15,15,1.00);
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+}
